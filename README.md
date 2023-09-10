@@ -1,8 +1,14 @@
 # Large Matrix Mutliplication using AWS
 
+## Project Objective
+### Large Matrix Multiplication developed using C++ that runs on automated AWS Cloud Instance, deployed using python and using boto3 AWS library.
+### The purpose of this project is to schedule computation demanding tasks in AWS cloud without configuring 
+### and creating instances manually and the instances will terminate after the job is done. 
+
+## Project Description
 ### Python File will automatically create Amazon Ubuntu fee tier instance based on image id and instance type provided
 
-### It will execute set of commands hardocoded in the code
+### It will execute set of commands hardocoded in the code. In this case, the operation is to compute Large Matrix Multiplication. At the end of the execution, it will output the execution time.
 
 ### After execution of code, it will stop all running instances and terminate it thereafter
 
