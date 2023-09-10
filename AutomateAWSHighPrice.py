@@ -37,8 +37,8 @@ print(vpc_id)
 
 
 
-aws_key = 'AKIAT22APHAQZIALILWJ'
-aws_secret = '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'
+aws_key = 'XXXXXXXXXXXXX'
+aws_secret = 'XXXXXXXXXXXXX'
 
 ec2 = boto3.resource('ec2', aws_access_key_id=aws_key,
                      aws_secret_access_key=aws_secret,region_name='ap-south-1')
