@@ -5,8 +5,8 @@ import time
 from botocore.exceptions import ClientError
 #import resources
 
-aws_key = 'AKIAT22APHAQZIALILWJ'
-aws_secret = '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'
+aws_key = 'XXXXXXXXXXXXX'
+aws_secret = 'XXXXXXXXXXXXX'
 
 def getEC2Client():
     print("Getting EC2 Client")
